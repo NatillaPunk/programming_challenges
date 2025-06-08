@@ -1,7 +1,123 @@
 // General Positions
 
-@mixin flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@mixin flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flex-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+// Full Matrix (Combinations)
+
+@mixin flex-center-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@mixin flex-center-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@mixin flex-start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-end-center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin flex-start-end {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+@mixin flex-end-start {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+@mixin flex-space-between-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@mixin flex-space-between-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@mixin flex-space-around-start {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@mixin flex-space-around-end {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+@mixin flex-space-evenly-start {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+@mixin flex-space-evenly-end {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+@mixin flex-stretch-start {
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+@mixin flex-center-stretch {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
